@@ -1,22 +1,40 @@
-# Full Stack AI Car Marketplace with Next JS, Supabase, Tailwind, Prisma, ArcJet, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/HyGi_SjQqV4
+# 🚗 Vehicle AI Page
 
-![Vehiql(1)](https://github.com/user-attachments/assets/dee04576-f30e-4ab8-af7d-f4633621379c)
+Welcome to **Vehicle AI Page** — your smart car reservation and management system powered by AI!  
+From uploading a picture to finding the perfect car, we've got you covered.
 
-### Make sure to create a `.env` file with following variables -
+---
 
-```
-DATABASE_URL=
-DIRECT_URL=
+## ✨ What Can You Do?
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+### 👨‍💼 For Admins:
+- 📋 Manage car listings — add, edit, or remove cars
+- 🖼 Upload car images and control availability
+- 📅 View and manage all user reservations & appointments
 
-GEMINI_API_KEY=
+### 🙋‍♂️ For Users:
+- 🔍 Search for cars — by name **or uploading a photo**
+- 📆 Book a reservation or schedule an appointment
+- 🔐 Enjoy secure access and smooth login experience
 
-ARCJET_KEY=
-```
+> Upload a car image and let **Gemini AI** do the magic 🪄
+
+---
+
+## 🧠 Tech Behind the Wheel
+
+| Feature         | Technology Used                 |
+|----------------|----------------------------------|
+| ✨ Image Search | [Gemini API](https://ai.google.dev/gemini) |
+| 🔐 Auth         | [Clerk](https://clerk.com)      |
+| 🧰 Database     | [Supabase](https://supabase.com) |
+| 🛡 Security     | [Arcjet](https://arcjet.com)     |
+| ⚛ Frontend     | React / Next.js + Tailwind CSS  |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+```bash
+git clone https://github.com/your-username/vehicle-ai-page.git
